@@ -1,0 +1,93 @@
+/* Universal attributes */
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500px;
+    font-size: 1.125rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+body {
+    margin: 25px 10px;
+}
+
+.containers {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 7px 5px;
+}
+
+/* Buttons */
+
+.button-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* height: 96%; */
+    width: 100%;
+}
+
+.button-container ul {
+    margin: 0px 5px;
+    padding: 5px;
+    float: right;
+}
+
+.button-container li {
+    list-style: none;
+    display: inline-block;
+}
+
+.button-container span {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 7px;
+    height: 24px;
+    width: 65px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.button-container a {
+    text-decoration: none;  
+}
+
+/* Intro Section */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41rem;
+}
+
+.opening-intro-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 90%;
+    width: 28%;
+}
+
+.opening-intro-box img {
+    float: left;
+    margin: 4%;
+    height: 220px;
+    width: 170px;
+    border-radius: 50% 50%;
+}
+
+/* Informational Section */
+
+.info {
+    height: 650px;
+    padding: 5px auto;
+}
+
+footer {
+    height: 100px;
+}
