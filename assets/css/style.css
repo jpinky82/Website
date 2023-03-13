@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/jasonbg.jpg") top right no-repeat;
+  background: #040404 url("/assets/img/B&W\ Background.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -83,7 +83,7 @@ h6 {
 }
 
 #header .container {
-  background-color: rgb(0, 0, 0,.75);
+  background-color: rgb(0, 0, 0,.85);
   /* background-image: linear-gradient(to right, rgb(0, 0, 0,1), rgba(255, 255, 255, 0)); */
 }
 
@@ -524,6 +524,9 @@ section .container {
 # Centriq Classmates
 --------------------------------------------------------------*/
 
+.centriq img {
+  object-fit: cover;
+}
 .centriq h4 {
   font-size: 1.8vw;
 }
