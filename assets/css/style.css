@@ -561,11 +561,15 @@ section .container {
 # Resume
 --------------------------------------------------------------*/
 
+#resume a{
+  color: #fff;
+}
+
 #resume button{
   background: #3a60f7;
+  color: #fff;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
   transition: 0.4s;
   border-radius: 4px;
   float: right;
